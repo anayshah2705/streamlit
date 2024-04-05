@@ -45,6 +45,5 @@ load
 ops
 bs4
 textblob
-google
-os
+
 
