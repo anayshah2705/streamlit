@@ -43,9 +43,8 @@ pickle_utils
 tf.keras
 load
 ops
-saving.pickle_utils
 bs4
 textblob
 google
 os
-protobuf==5.26.1
+
