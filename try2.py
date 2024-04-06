@@ -30,7 +30,7 @@ from IPython.display import display
 from IPython.display import Markdown
 
 # Connect to MongoDB
-client = pymongo.MongoClient("mongodb://localhost:27017/")  # Update connection string as needed
+client = pymongo.MongoClient("mongodb+srv://anayshah2705:rgeBvbNYDXxa4ZFj@cluster0.91cztoc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Update connection string as needed
 db = client["streamlit_app"]
 users_collection = db["users"]
 portfolio_collection = db["portfolio"]
